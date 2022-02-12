@@ -1,4 +1,4 @@
-# Made for [<a href="https://fightcorpcryptocurrency.com/">$MSUP</a>]
+# Made for [<a target="_blank" href="https://fightcorpcryptocurrency.com/">$MSUP</a>]
 
 # Calculate the additive sum of a consecutive number sequence.
 
