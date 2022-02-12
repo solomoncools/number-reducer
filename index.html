@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Number Redux</title>
+    </head>
+    <style>
+        #main {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+            #submit {
+                width: 40%;
+                height: 2em;
+            }
+                #number-input {
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    font-size: 1.1em;
+                }
+    </style>
+    <body>
+        <div id="main">
+            <h1>
+                <!-- water.earth .;. air.fire -->
+                ♣️♠️♥️♦️ &nbsp; FRACTAL M🃏TH MACHINE &nbsp; ♦️♥️♠️♣️
+            </h1>
+            <h1>&lt;/|&bull;|\&gt; &nbsp;<span id="i1">enter your number to start</span>&nbsp; &lt;/|&bull;|\&gt;</h1>
+            <h1 id="i2_container">{\|&bull;|/} &nbsp;<span id="i2">enter your number to start</span>&nbsp; {\|&bull;|/}</h1>
+            <br />
+            <form id="submit" autocomplete="off" onsubmit="event.preventDefault(); return false;">
+                <input id="number-input" type="text" placeholder="0.384308016785167307" />
+            </form>
+        </div>
+    <script src="number_reducer.js"></script>
+    </body>
+</html>
